@@ -3,3 +3,8 @@ fruits=("A","B","c")
 print(GREEN)
 print(YELLOW)
 print(RED)
+
+OUTPUT:
+A
+B
+c
