@@ -9,3 +9,11 @@ if num==rev:
   print("Palindrome")
 else:
   print("not palindrome")
+
+
+OUTPUT:
+Enter a number6798
+not palindrome
+
+Enter a number454
+Palindrome
