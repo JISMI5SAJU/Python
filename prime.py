@@ -11,3 +11,11 @@ else:
     print("Not prime")
 
     
+OUTPUT:
+Enter number67
+Prime
+
+Enter number82
+Not prime
+
+    
