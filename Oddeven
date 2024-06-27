@@ -1,0 +1,39 @@
+odd=[]
+even=[]
+list=[]
+lim=int(input("enter the limit"))
+for i in range(lim):
+ num=int(input("enter number"))
+ list.append(num)
+for x in range(lim):
+    if list[x]%2==0:
+         even.append(list[x])
+    else:
+         odd.append(list[x])
+print("odd numbers")
+print(odd)
+print("even numbers")
+print(even)
+odd.sort()
+print("smallest odd no:",odd[0])
+print("largest odd no:",odd[-1])
+
+even.sort()
+print("smallest even no :",even[0])
+print("largest even no:",even[-1])
+
+OUTPUT:
+enter the limit5
+enter number4
+enter number5
+enter number8
+enter number3
+enter number1
+odd numbers
+[5, 3, 1]
+even numbers
+[4, 8]
+smallest odd no: 1
+largest odd no: 5
+smallest even no : 4
+largest even no: 8
